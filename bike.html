@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bike</title>
+</head>
+<body>
+    <div class="container">
+      <div class="path"></div>
+      <ul>
+        <li><a href="#"">Home</a></li>
+        <li><a href="#"">About</a></li>
+        <li><a href="#"">Services</a></li>
+        <li><a href="#"">Contact</a></li> 
+      </ul>
+      <div class="thumbnail">
+        <li><img src="bike1.jpg"  onclick="big('bike1.jpg');"></li>
+        <li><img src="bike2.jpg"  onclick="big('bike2.jpg');"></li>
+        <li><img src="bike3.jpg"  onclick="big('bike3.jpg');"></li>
+      </div>
+      <div class="big-img">
+        <img src="bike3.jpg"  class="big">
+      </div>
+      <div class="content">
+         <p>&#x1F525;let's ride&#x1F525;</p><br>
+         <h1> DONT FEAR DYING<br>&nbsp;&nbsp; FOR NOT LIVING </h1><br><br>
+         <h5>&#x1F60E;For bike lovers&#x1F49D;</h5>
+    </div>
+</body> 
+<script>
+  function big(img)
+  document.querySelector('.big').src=img;
+</script>
+</html>
