@@ -1,0 +1,13 @@
+.form-row .form-group{
+    padding-left: 400px;
+    padding-right: 30px;
+}
+.s{
+    padding-left: 400px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+.form-group button{
+    background-color:rgb(103, 123, 188);
+    border-radius: 50px;
+}
